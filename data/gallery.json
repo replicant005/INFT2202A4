@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "src": "content/images/volunteer-activity1.jpg",
+      "thumbnail": "content/images/volunteer-activity1.jpg",
+      "title": "Volunteer Activity 1",
+      "description": "Description for Volunteer Activity 1."
+    },
+    {
+      "src": "content/images/volunteer-activity2.jpg",
+      "thumbnail": "content/images/volunteer-activity2.jpg",
+      "title": "Volunteer Activity 2",
+      "description": "Description for Volunteer Activity 2."
+    },
+    {
+      "src": "content/images/volunteer-activity3.jpg",
+      "thumbnail": "content/images/volunteer-activity3.jpg",
+      "title": "Volunteer Activity 3",
+      "description": "Description for Volunteer Activity 3."
+    }
+  ]
+}

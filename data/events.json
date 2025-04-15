@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Beach Cleanup",
+    "description": "Join us for a day at the beach to clean up the shoreline.",
+    "date": "2025-02-05T09:00:00",
+    "category": "Cleanup"
+  },
+  {
+    "title": "Fundraising Gala",
+    "description": "A night of elegance and giving to support local charities.",
+    "date": "2025-02-10T19:00:00",
+    "category": "Fundraiser"
+  },
+  {
+    "title": "Workshop on Sustainability",
+    "description": "Learn about sustainable practices for a better future.",
+    "date": "2025-02-15T14:00:00",
+    "category": "Workshop"
+  },
+  {
+    "title": "Park Cleanup",
+    "description": "Help clean up the park and protect our green spaces.",
+    "date": "2025-03-01T08:00:00",
+    "category": "Cleanup"
+  },
+  {
+    "title": "Tech for Good",
+    "description": "A workshop on using technology for social good.",
+    "date": "2025-03-10T09:00:00",
+    "category": "Workshop"
+  }
+]

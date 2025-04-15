@@ -1,0 +1,52 @@
+{
+    "statistics": [
+      {
+        "date": "Jan 2025",
+        "visitors": 1245,
+        "newUsers": 892,
+        "pageViews": 3860,
+        "avgSessionDuration": 186.5,
+        "bounceRate": 42.3
+      },
+      {
+        "date": "Feb 2025",
+        "visitors": 1587,
+        "newUsers": 1023,
+        "pageViews": 4732,
+        "avgSessionDuration": 195.2,
+        "bounceRate": 39.1
+      },
+      {
+        "date": "Mar 2025",
+        "visitors": 1892,
+        "newUsers": 976,
+        "pageViews": 5218,
+        "avgSessionDuration": 210.7,
+        "bounceRate": 35.8
+      },
+      {
+        "date": "Apr 2025",
+        "visitors": 2156,
+        "newUsers": 1287,
+        "pageViews": 6289,
+        "avgSessionDuration": 225.3,
+        "bounceRate": 32.5
+      },
+      {
+        "date": "May 2025",
+        "visitors": 2437,
+        "newUsers": 1392,
+        "pageViews": 7124,
+        "avgSessionDuration": 238.1,
+        "bounceRate": 30.2
+      },
+      {
+        "date": "Jun 2025",
+        "visitors": 2689,
+        "newUsers": 1452,
+        "pageViews": 7985,
+        "avgSessionDuration": 246.8,
+        "bounceRate": 28.9
+      }
+    ]
+  }

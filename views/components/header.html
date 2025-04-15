@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#/home">Volunteer Connect</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" id="home"><a class="nav-link" href="#/home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item" id="opportunities"><a class="nav-link" href="#/opportunities"><i class="fa-solid fa-handshake-angle"></i> Volunteer Now</a></li>
+                <li class="nav-item" id="events"><a class="nav-link" href="#/events"><i class="fa-solid fa-calendar-days"></i> Events</a></li>
+                <li class="nav-item" id="contact"><a class="nav-link" href="#/contact"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                <li class="nav-item" id="about"><a class="nav-link" href="#/about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                
+                <!-- Login link (shown when user is not logged in) -->
+                <li class="nav-item">
+                    <a id="login" class="nav-link" href="#/login"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+                
+                <!-- User dropdown (shown when user is logged in, initially hidden) -->
+                <li id="userDropdownContainer" class="nav-item dropdown d-none">
+                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span id="userDisplayName">Welcome, User</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                        <li><a class="dropdown-item" href="#/statistics"><i class="fas fa-chart-line"></i> Statistics</a></li>
+                        <li><a class="dropdown-item" href="#/event-planning"><i class="fas fa-calendar-plus"></i> Event Planning</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#" id="logoutLink"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                    </ul>
+                </li>
+
+                <!-- More Dropdown -->
+                <li class="nav-item dropdown" id="more">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#/news">Community News</a></li>
+                        <li><a class="dropdown-item" href="#/privacy-policy">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="#/terms-of-service">Terms of Service</a></li>
+                        <li><a class="dropdown-item" href="#/gallery">Gallery</a></li>
+                    </ul>
+                </li>
+                
+                <!-- Search Bar -->
+                <li class="nav-item ms-auto">
+                    <input id="searchBar" class="form-control" type="text" placeholder="Search Events, Volunteer Opportunities, News" aria-label="Search">
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link btn btn-outline-primary" href="#/donate">Donate</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
